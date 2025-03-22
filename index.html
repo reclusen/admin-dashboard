@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- ^ search icon svg ^ -->
+                <input type="text" class="search-bar">
+            </div>
+            <div class="profile">
+                <i class="fa-regular fa-bell"></i>
+                <!-- ^ notification bell icon svg ^ -->
+                <img src="images/red_reclusen.png" alt="user_image" class="avatar">
+                <span class="name">John Appleseed</span>
+            </div>
+        </div>
+    
+        
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <!-- could probably use some pseudoelement magic for this, but this is more simple -->
+                <i class="fa-sharp fa-solid fa-table"></i><span class="name">Dashboard</span>
+            </div>
+            <div class="sidebar-container">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+                    <li><i class="fa-solid fa-id-card"></i><a href="#">Profile</a></li>
+                    <li><i class="fa-solid fa-message"></i><a href="#">Messages</a></li>
+                    <li><i class="fa-solid fa-clock"></i><a href="#">History</a></li>
+                    <li><i class="fa-solid fa-file"></i><a href="#">Tasks</a></li>
+                    <li><i class="fa-solid fa-person"></i><a href="#">Communities</a></li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-gear"></i><a href="#">Settings</a></li>
+                    <li><i class="fa-solid fa-question"></i><a href="#">Support</a></li>
+                    <li><i class="fa-solid fa-shield"></i><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+
+    
+        <div class="navbar">
+            <div class="profile">
+                <img src="images/red_reclusen.png" alt="user_image" class="avatar">
+                <div>
+                    <span class="text">Hi there,</span>
+                    <span class="name">John Appleseed (@appleseeder)</span>
+                </div>
+            </div>
+            
+            <ul class="nav-links">
+                <li class="nav-link"><a href="#">New</a></li>
+                <li class="nav-link"><a href="#">Upload</a></li>
+                <li class="nav-link"><a href="#">Share</a></li>
+            </ul>
+        </div>
+
+
+        <div class="main">
+            <div class="projects-panel">
+                <h4 class="project-header">Your Projects</h4>
+                <div class="project-container">
+                    <div class="project">
+                        <h4 class="title">X Profile Scraper</h6>
+                        <p class="description">
+                            Morbi et ex ipsum. Nam id pharetra urna. Quisque a varius quam, et convallis lorem.
+                            Phasellus luctus lectus dolor, convallis tincidunt neque condimentum sed.
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4 class="title">AI Diet Assistant</h6>
+                        <p class="description">
+                            Donec quis efficitur odio, sed posuere est. Nullam quis ex quis tellus laoreet tempor.
+                            Quisque a vehicula erat.
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4 class="title">Remote Charging</h6>
+                        <p class="description">
+                            Sed interdum, nisi nec aliquet tincidunt, enim nisi tempor leo, in egestas nibh risus in erat.
+                            Curabitur euismod ante a lorem facilisis dapibus.
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4 class="title">Vimulator</h6>
+                        <p class="description">
+                            In fermentum imperdiet nisi, vitae ornare ligula suscipit nec. Integer sit amet tristique ante. Proin ut ipsum nec purus pretium iaculis.
+                            Aliquam iaculis volutpat est, imperdiet mattis nisi porta nec. 
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4 class="title">Playlist Finder</h6>
+                        <p class="description">
+                            Nam sapien quam, dictum eget laoreet semper, feugiat consectetur tortor. Aliquam mauris risus, cursus sit amet orci at, vulputate cursus est.
+                            Nam nec scelerisque nulla.
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4 class="title">Web Layout Generator</h6>
+                        <p class="description">
+                            In pharetra ex id fermentum euismod. Proin eget aliquam nibh, eget commodo erat. Phasellus vulputate placerat nisl, vitae tristique nulla lobortis at.
+                        </p>
+                        <div class="icon-container">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-share"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="announcements">
+                <h4 class="announcement-header">Announcements</h4>
+                <div class="announcement-container">
+                    <div class="announcement">
+                        <h5 class="title">New Javascript framework in the works</h5>
+                        <p class="description">
+                            Morbi varius porta dapibus. Proin dictum arcu arcu, eu condimentum nulla tristique vel. Curabitur molestie, est feugiat pharetra frin...
+                        </p>
+                    </div>
+                    <div class="announcement">
+                        <h5 class="title">Regarding the importance of web security</h5>
+                        <p class="description">
+                            Duis sapien arcu, blandit ac urna in, elementum congue dui. Proin ut sagittis purus. Cras pharetra velit...
+                        </p>
+                    </div>
+                    <div class="announcement">
+                        <h5 class="title">Site functionality bug fixes</h5>
+                        <p class="description">
+                            Praesent enim risus, vulputate placerat pellentesque ac, facilisis nec tortor. Pellentesque in congue metus, ut commodo sapien. Suspendisse...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <h4 class="trending-header">Trending</h4>
+                <div class="trending-container">
+                    <div class="trends">
+                        <img src="images/yellow_reclusen.png" alt="user_image" class="avatar">
+                        <div class="name-container">
+                            <h6 class="username">@user10902</h6>
+                            <p class="project-name">GPS Backtracer</p>
+                        </div>
+                    </div>
+                    <div class="trends">
+                        <img src="images/green_reclusen.png" alt="user_image" class="avatar">
+                        <div class="name-container">
+                            <h6 class="username">@sammy</h6>
+                            <p class="project-name">AI Search Filter</p>
+                        </div>
+                    </div>
+                    <div class="trends">
+                        <img src="images/red_reclusen.png" alt="user_image" class="avatar">
+                        <div class="name-container">
+                            <h6 class="username">@appleseeder</h6>
+                            <p class="project-name">Remote Charging</p>
+                        </div>
+                    </div>
+                    <div class="trends">
+                        <img src="images/blue_reclusen.png" alt="user_image" class="avatar">
+                        <div class="name-container">
+                            <h6 class="username">@breadLo53r</h6>
+                            <p class="project-name">Sleep Metrics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
